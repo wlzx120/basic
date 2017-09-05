@@ -88,6 +88,8 @@ return [
     'uploaded'             => 'The :attribute failed to upload.',
     'url'                  => 'The :attribute format is invalid.',
 
+
+
     /*
     |--------------------------------------------------------------------------
     | Custom Validation Language Lines
@@ -98,10 +100,13 @@ return [
     | specify a specific custom language line for a given attribute rule.
     |
     */
-
+    //自定义验证消息
     'custom' => [
         'attribute-name' => [
             'rule-name' => 'custom-message',
+        ],
+        'yzm' =>[
+            'required' => '验证码 错误'
         ],
     ],
 
@@ -117,5 +122,8 @@ return [
     */
 
     'attributes' => [],
+
+    //自定义验证规则
+    'yzmgz' => '验证码错误',
 
 ];
