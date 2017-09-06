@@ -28,4 +28,5 @@ Route::post('article/create','ArticleController@store')->name('admin.article.sto
 //文章搜索
 Route::post('article','ArticleController@index')->name('admin.article.index');
 
+//密码重置
 

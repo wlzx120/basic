@@ -9,6 +9,6 @@ class IndexController extends Controller
 {
     public function index()
     {
-        return '这是前台index';
+        return view('home.static_page.home');
     }
 }
