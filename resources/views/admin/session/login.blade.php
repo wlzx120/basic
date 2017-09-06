@@ -54,7 +54,7 @@
           <button type="submit" class="btn btn-primary btn-block btn-flat">登录</button>
         </div>
       </div>
-        <a href="">忘记密码</a>
+        <a href="{{ route('password.request') }}">忘记密码</a>
     </form>
   </div>
 </div>

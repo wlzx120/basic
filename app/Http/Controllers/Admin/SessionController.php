@@ -10,7 +10,11 @@ class SessionController extends Controller
 {
     public function login()
     {
-        return view('admin.session.login');
+        if(Auth::guest()){
+            return view('admin.session.login');
+        }else{
+            return redirect()->route('admin');
+        }
     }
 
     //登录
